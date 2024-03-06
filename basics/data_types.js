@@ -15,5 +15,24 @@ const anotherId = Symbol("123")
 console.log(id == anotherId);
 
 const BigNumber = 67785943n
- 
+
+// non primitive  datatypes
+
+//array
+const heros = ["rohit" , "sahil" , "virat"] 
+// objects
+let myObj =  {
+    name: "khushi",
+    age: 21,
+
+}
+
+//functions
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof bigNumber);
+
 
